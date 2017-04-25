@@ -1,0 +1,23 @@
+{
+  "name": "projectsignagesystem",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.5.1",
+    "express": "^4.13.4",
+    "express-session": "^1.15.1",
+    "level": "^1.6.0",
+    "mssql": "^3.3.0",
+    "properties-reader": "0.0.15",
+    "request": "^2.81.0",
+    "tedious": "^2.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "jasmine-node": "^1.14.5"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon ./config/server.js"
+  }
+}
